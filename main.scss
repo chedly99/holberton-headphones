@@ -1,0 +1,26 @@
+// project variables;
+@import "abstracts/variables";
+@import "base/typography";
+// Project linearGradient
+
+
+
+//Project Base configuration
+@import "base/cssReset";
+@import "base/base";
+@import "base/utlities";
+
+// Project variables
+
+//projet global layout
+@import "layout/grid";
+@import "components/header";
+@import "components/workSection";
+@import "components/resultSection";
+@import "components/shape-box";
+@import "components/form";
+@import "components/button";
+@import "components/footer";
+
+
+@import "pages/_home"

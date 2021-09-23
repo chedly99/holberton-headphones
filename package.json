@@ -1,0 +1,14 @@
+{
+  "name": "holberton-headphones",
+  "version": "1.0.0",
+  "description": "Design implementation from scratch",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o css/ --recursive"
+  },
+  "author": "Mahdi Zaabi",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

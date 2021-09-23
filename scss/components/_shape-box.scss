@@ -1,0 +1,33 @@
+// the polygon box Shape
+
+
+
+.result__division {
+    background-color: rgba(255, 101, 101, 1);
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    height: 19rem;
+    width: 22%;
+    padding: 7rem 5rem 9.4rem 5.1rem;
+    text-align: center;
+    //mobile version to change for bigger
+    width: 20rem;
+    &:not(:first-of-type){
+        margin-top: 3.5rem;
+    }
+    
+
+    & .box__image-title {
+        font-weight: 700;
+        margin: auto 1rem;
+        font-size: 4.6rem;
+        font-style: normal;
+        margin-bottom: 0.5rem;
+    }
+
+    & .sub__image {
+        font-weight: 400;
+        font-style: normal;
+        font-size: 1.4rem;
+    }
+
+}

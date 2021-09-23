@@ -1,0 +1,30 @@
+.result {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    color: red;
+    margin: 0 auto;
+    height: 50rem;
+    background-image: url(../images/Background2.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 149rem;
+
+    @media(min-width: 700px) {
+        height: 65rem;
+    }
+
+    & .primary-title {
+        font-style: Semibold;
+        font-size: 3.2rem;
+        text-align: center;
+    }
+    & .result__description {
+        font-style: regular;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        vertical-align: top;
+    }
+}

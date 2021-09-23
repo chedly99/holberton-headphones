@@ -1,0 +1,18 @@
+input {
+    border: none;
+    border-bottom: 0.3px solid rgba(71, 71, 71, 0.438);
+    min-width: 24rem;
+    height: 3rem;
+
+    &:not(:last-child) {
+        margin-bottom: 0.8rem;
+    }
+    outline: none;
+}
+
+::placeholder {
+    font-size:1.4rem;
+    font-weight: bold;
+    color: $primary-color;
+    margin-bottom: 1.5rem;
+}

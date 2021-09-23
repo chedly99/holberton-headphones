@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.containerx {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100rem;
+}
+.sub_container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: center;
+    @media(min-width:700px) {
+        max-width:100rem;
+        flex-direction: row;
+    }
+    
+}
+
+.col-1-1 {
+    max-width: 60%;
+    text-align: center;
+}
+
+.col-1-4 {
+    width: 12rem;
+    text-align: center;
+}
